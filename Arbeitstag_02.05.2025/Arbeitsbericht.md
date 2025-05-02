@@ -8,7 +8,7 @@ Heute haben wir das Projekt fertiggestellt. Folgendes wurde neu implementiert ü
 - Tempo Booster
 - Checkpoint für Zeitzunahme
 
-Grundsätzlich lief alles hervorragend und stiessen auf keine Probleme.
+Grundsätzlich lief alles hervorragend und stiessen auf keine Probleme. Optional wollten wir noch Audios einbauen, wie Soundeffekte und Hintergrundmusik, hatten aber uns letzendlich dagegen entschieden.
 
 Die restlichen Objekte haben wir ebenfalls aus dem Unity Store kostenlos heruntergeladen und die Animationen haben wir aus Mixamo genommen.
 
