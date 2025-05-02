@@ -8,3 +8,8 @@ Heute haben wir das Projekt fertiggestellt. Folgendes wurde neu implementiert ü
 - Tempo Booster
 
 Grundsätzlich lief alles hervorragend und stiessen auf keine Probleme.
+
+Die restlichen Objekte haben wir ebenfalls aus dem Unity Store kostenlos heruntergeladen und die Animationen haben wir aus Mixamo genommen.
+
+Mixamo:
+https://www.mixamo.com/#/?page=1&query=stumble
