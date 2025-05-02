@@ -6,6 +6,7 @@ Heute haben wir das Projekt fertiggestellt. Folgendes wurde neu implementiert ü
 - Punktesystem
 - Kollidierungssystem
 - Tempo Booster
+- Checkpoint für Zeitzunahme
 
 Grundsätzlich lief alles hervorragend und stiessen auf keine Probleme.
 
