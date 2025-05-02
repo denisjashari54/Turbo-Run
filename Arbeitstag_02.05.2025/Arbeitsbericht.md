@@ -4,7 +4,7 @@ Ein Arbeitskollege fehlte leider die gesamte Woche und deshalb entschieden wir u
 Heute haben wir das Projekt fertiggestellt. Folgendes wurde neu implementiert über die zwei Tage:
 - Timer für Game Over
 - Punktesystem
-- Kollidierungssystem
+- Kollisionssystem 
 - Tempo Booster
 - Checkpoint für Zeitzunahme
 
