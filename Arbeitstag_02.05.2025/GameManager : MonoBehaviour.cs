@@ -1,18 +1,51 @@
 using TMPro;
 using UnityEngine;
 
-public class ScoreManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    [SerializeField] GameManager gameManager;
-    [SerializeField] TMP_Text scoreText;
+    [SerializeField] PlayerController playerController;
+    [SerializeField] TMP_Text timeText;
+    [SerializeField] GameObject gameOverText;
+    [SerializeField] float startTime = 5f;
 
-    int score = 0;
+    float timeLeft;
+    bool gameOver = false;
 
-    public void IncreaseScore(int amount) 
+    public bool GameOver => gameOver;
+
+    void Start() 
     {
-        if (gameManager.GameOver) return;
+        timeLeft = startTime;
+    }
 
-        score += amount;
-        scoreText.text = score.ToString();
+    void Update()
+    {
+        DecreaseTime();
+    }
+
+    public void IncreaseTime(float amount) 
+    {
+        timeLeft += amount;
+    }
+
+    void DecreaseTime()
+    {
+        if (gameOver) return;
+
+        timeLeft -= Time.deltaTime;
+        timeText.text = timeLeft.ToString("F1");
+
+        if (timeLeft <= 0f)
+        {
+            PlayerGameOver();
+        }
+    }
+
+    void PlayerGameOver() 
+    {
+        gameOver = true;
+        playerController.enabled = false;
+        gameOverText.SetActive(true);
+        Time.timeScale = .1f;
     }
 }
